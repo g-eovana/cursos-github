@@ -36,37 +36,38 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-}
+    justify-content: center;
 
-/*adiciona display flex em linha reversa*/
-.flrr {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-around;
-}
 
-/*adiciona display flex em coluna*/
-.flc {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
 
-/*adiciona display flex em coluna reversa*/
-.flcr {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: space-around;
-}
+    /*adiciona display flex em linha reversa*/
+    .flrr {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-around;
+    }
 
-.grid {
-    display: grid;
-    grid-template-columns: 200px 200px;
-}
+    /*adiciona display flex em coluna*/
+    .flc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
 
-/**/
-/**/
+    /*adiciona display flex em coluna reversa*/
+    .flcr {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 200px 200px;
+    }
+
+    /**/
+    /**/
